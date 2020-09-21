@@ -20,7 +20,7 @@
 
 
 
-## Creating a subdomain
+### Creating a subdomain
 
 under duotones.stage.. find notes!
 
@@ -33,6 +33,22 @@ under duotones.stage.. find notes!
 3. in the folder, pull from bitbucket
 4. Fetch, pull
 5. refresh
+
+
+
+## enter in live website
+
+get access 
+
+`ssh serveraddress` 
+
+Password
+
+check version of atomic in prod, 
+
+`git log --pretty=format:'%h' -n 1`to see just the hash
+
+exit to log out
 
 
 
@@ -79,6 +95,14 @@ to check hosting service ask for
 - you can look what someone is using by visiting ping.eu or dns lookup
 - a good hosts has ftpuser, php, manage domains and htaccess or ssh (helpful to push code)
 - change the DNS points to ns1.cyon.ch and ns2.cyon.ch (fallback)
+
+
+
+## SSL certificate that doesn't want to update itself
+
+http://lists.gno.org/cert-maint-mac-10.5.8/
+
+
 
 ## End
 

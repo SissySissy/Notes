@@ -7,9 +7,6 @@
  https://source.unsplash.com/collection/{COLLECTION ID}
  ### specific picture
  https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
-
-example: <img class='' alt='' src='https://source.unsplash.com/fZGBI8VKMYg/758x1000'>`
-
  ### search item
  https://source.unsplash.com/featured/?{KEYWORD},{KEYWORD}
 	

@@ -1,6 +1,6 @@
 # Git
 
-
+https://danielkummer.github.io/git-flow-cheatsheet/
 
 ## getting started
 
@@ -26,10 +26,6 @@
 
 A pull request (or PR) is a way to alert a repo's owners that you want to make some changes to their code. It allows them to review the code and make sure it looks good before putting your changes on the master branch.
 
-
-
-
-
 git commit -a -m (message)
 
 git config --global username and email
@@ -50,12 +46,40 @@ Gh-pages to have simple pages to see online
 
 
 
+## Starting new feature
+
+1. create a new branch on Jira kanban
+
+2. git flow init (for new projects)
+
+3. git flow feature start NOEZL-11-footer
+
+4. git status (check where you are)
+
+5. npm run dev
+
+6. on atom click fetch, check updates, stop gulp process
+
+7. in the theme folder cd/ git check out -b
+
+8. Wp-database import, wp database update, wp user create, login with new wordpress admin
+
+9. wp_cli commands?
+
+10. git fetch, starting progress, feature finish NAMe-footer
+
+11. Commit message NAME #progress
+
+12. restart gulp
+
+    
+
 ## Viewing project history
 
 At any point you can view the history of your changes using
 
 ```
-$ git log
+$ git log --oneline
 ```
 
 If you also want to see complete diffs at each step, use
@@ -69,3 +93,25 @@ Often the overview of the change is useful to get a feel of each step
 ```
 $ git log --stat --summary
 ```
+
+
+
+# Create new branch
+
+`git branch namebranch` creates a new branch
+
+git knows that after `-b` every word will be part of the branch's name until another parameter (or end of line) is found.
+
+Specifying -b causes a new branch to be created as if git-branch were called and then checked out.
+
+It first creates the new branch and then automatically checks you out to that branch so that you can start working within that branch.
+
+```
+$ git checkout -b myFeature dev
+```
+
+`git branch -a` shows branches
+
+`git checkout branch name`to switch to another branch
+
+`git --help`

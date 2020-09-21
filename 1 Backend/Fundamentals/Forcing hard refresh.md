@@ -1,0 +1,1 @@
+https://www.getfilecloud.com/blog/2015/03/tech-tip-how-to-do-hard-refresh-in-browsers/#.XtoOCp4zZ24

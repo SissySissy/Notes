@@ -48,7 +48,7 @@ if the parents of the animation object changes its visibility, you should give i
 ## translate
 
 	transform: translateX(100%);
-	
+
 ## little animations
 
 	animation:  
@@ -60,7 +60,7 @@ if the parents of the animation object changes its visibility, you should give i
 	[animation-direction]
 	[animation-fill-mode]
 	[animation-play-state];
-	
+
 ## examples
 
 ### easing
@@ -122,3 +122,23 @@ kxODk5MjkwLDQ0NzA3MTE2MSwxMzkwOTA1Mzk4LC0xMTc2NzMz
 Nzk5LDkyOTEwMDIwOCwtMTY3MzY0MTUyNCwyMTAzNTAwMDQ3LD
 E1NTA0ODg2ODQsMzI1NjIyNjI3LDQxNDQ4ODk4OV19
 -->
+
+
+
+### easing functions
+
+
+
+https://gist.github.com/gre/1650294
+
+
+
+example of use:
+
+
+
+*function* ease(t){
+
+​        *return* t<.5 ? 2*t*t : -1+(4-2*t)*t;
+
+​    }
